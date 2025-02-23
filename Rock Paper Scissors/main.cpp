@@ -81,13 +81,10 @@ void game_round() {
             if (ai_choice_value == ROCK) {
                 cout << "You win!\n";
             } else if (ai_choice_value == SCISSORS) {
-                cout << "You lose!";
+                cout << "You lose!\n";
             } else {
                 cout << "It's a tie!\n";
             }
-        default: {
-            cout << "Something went wrong...\n";
-        }
     }
 
 }
