@@ -99,7 +99,6 @@ int main() {
 
 
 
-
     while (i < 20) {
         cout << "Round: " << i << "\n";
 
