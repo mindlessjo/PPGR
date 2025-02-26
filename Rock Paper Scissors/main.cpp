@@ -85,6 +85,7 @@ void game_round() {
             } else {
                 cout << "It's a tie!\n";
             }
+    default:;
     }
 
 }
