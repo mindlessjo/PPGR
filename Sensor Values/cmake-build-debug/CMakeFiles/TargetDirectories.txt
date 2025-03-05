@@ -1,3 +1,0 @@
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Sensor Values/cmake-build-debug/CMakeFiles/Sensor_Values.dir
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Sensor Values/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Sensor Values/cmake-build-debug/CMakeFiles/rebuild_cache.dir
