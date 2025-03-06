@@ -1,6 +1,7 @@
 #include <iostream>
 
 using std::cout;
+using std::cin;
 
 int main() {
     // int data type from main function has a return type of 4 bytes in memory
@@ -45,13 +46,40 @@ int main() {
     << "(a) isEqual = (a == b) represents 'equal to'\n"
     << "(a) isNotEqual = (a != b) represents 'not equal to'\n"
     << "(a) isGreater = (a > b) represents 'greater than'\n"
-    << "(a) isLess = (a < b) represents 'is less than'\n"
+    << "(a) isLess = (a < b) represents 'is less than'\n\n";
+
+
+    cout << "\nVariables/Statements/Expressions\n"
     << "A literal constant is a fixed value that has been inserted directly into the source code and cannot be changed\n"
     << "A variable's value can be set and changed through initialization and assignment\n"
-    << "Objects and variables represent memory locations that hold values. These values can be fetched on demand\n\n";
+    << "Objects and variables represent memory locations that hold values. These values can be fetched on demand\n"
+    << "Unary operators take one operand. Binary operators take two operands, often called left and right.\n"
+       "Ternary operators take three operands. Nullary operators take zero operands.\n\n";
+    // converting from assignment can cause narrowing conversions
+    // float y = 32.1234; int x = y;
+    // cout << x; // will print 32 because of narrowing conversion
 
+    // int a{1}; initializes a variable with the literal value of 1
+    // int b{2+3}; initializes a variable with the computed value of 5
+    // int c{(2*3)+4)}; initializes a variable with the computed value of 10
+    // int d{b}; initializes a variable with the variable value 5, or variable value of b which is 5
+    // int e{three()}; initializes a variable with the function return value of 3 (assuming the return value is 3
 
+    //Statements are used when you want the program to perform an action.
+    //example - int x is a variable deigning statement with no expression
+    //Expressions are used when we want the program to calculate a value.
+    //example - int x = 5 is a statement that contains an expression using copy initialization (=)
 
+    //example - x = 5; is an expression statement
+    //example - something() is a function, and functions are part of an expressions, so this is an expression statement
+    //example - std::cout << x; is an expression statement, because of the two operands and the binary operator (<<)
 
-    return 0;
+    cout << "\nOverview of Chapter 1\n"
+    << "A statement is a type of instruction that causes the program to perform some action\n"
+    << "A function is a collection of statements that execute sequentially\n"
+    << "Data is any information that can be moved, processed, or stored by a computer\n"
+    << "To create a variable, you sue a statement called definition statement, and when the program is ran it is\n"
+       "instantiated, meaning it is assigned a memory address\n"
+    << "A variable is a named piece of memory that we can use to store values or pieces of data"
+    << "Copy assignment (=) can be used to assign an already created variable a value.\n\n";
 }
