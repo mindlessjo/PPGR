@@ -1,0 +1,3 @@
+C:/Users/mindl/Documents/Dev Workspace/PPGR/Number Swapper/cmake-build-debug/CMakeFiles/Number_Swapper.dir
+C:/Users/mindl/Documents/Dev Workspace/PPGR/Number Swapper/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mindl/Documents/Dev Workspace/PPGR/Number Swapper/cmake-build-debug/CMakeFiles/rebuild_cache.dir

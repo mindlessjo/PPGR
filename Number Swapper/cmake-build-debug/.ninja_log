@@ -1,0 +1,25 @@
+# ninja log v6
+28	1518	7631875250312082	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+1520	1855	7631875265234902	Number_Swapper.exe	f933ba5807e831fb
+49	567	7631875645790614	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+567	671	7631875650979852	Number_Swapper.exe	f933ba5807e831fb
+6	509	7631878118537258	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+510	614	7631878123579108	Number_Swapper.exe	f933ba5807e831fb
+28	506	7631879810992764	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+506	603	7631879815773197	Number_Swapper.exe	f933ba5807e831fb
+26	539	7631883616330024	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+540	633	7631883621469511	Number_Swapper.exe	f933ba5807e831fb
+63	1262	7631890942042230	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+1264	1519	7631890954058127	Number_Swapper.exe	f933ba5807e831fb
+29	568	7631908262808190	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+569	669	7631908268197052	Number_Swapper.exe	f933ba5807e831fb
+59	1080	7631980623322707	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+1081	1227	7631980633530536	Number_Swapper.exe	f933ba5807e831fb
+51	945	7631981330844560	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+945	1084	7631981339787414	Number_Swapper.exe	f933ba5807e831fb
+59	1167	7631981704259026	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+1169	1330	7631981715361433	Number_Swapper.exe	f933ba5807e831fb
+51	840	7631982142885730	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+841	972	7631982150780997	Number_Swapper.exe	f933ba5807e831fb
+60	983	7631982454029751	CMakeFiles/Number_Swapper.dir/main.cpp.obj	15b5cf4568b4848f
+984	1144	7631982463255073	Number_Swapper.exe	f933ba5807e831fb

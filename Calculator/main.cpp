@@ -1,38 +1,38 @@
 #include <iostream>
 
-using std::cout;
-using std::cin;
-using std::endl;
-using std::string;
+using namespace std;
 
-int main() {
+void calculation() {
 
-    cout << "Calculator V1.0." << endl << endl;
+    double firstArgument, secondArgument, sum = 0;
+    char operatorArgument;
 
-    int firstArgument;
+
     cout << "First Argument: ";
     cin >> firstArgument;
 
-    char operatorArgument;
     cout << "Operator Argument: ";
     cin >> operatorArgument;
 
-    int secondArgument;
     cout << "Second Argument: ";
     cin >> secondArgument;
 
-    int sum;
+    cout << "Equation: " << firstArgument << " " << operatorArgument << " " << secondArgument << endl;
+
     switch (operatorArgument) {
         case '+': sum = firstArgument + secondArgument; break;
         case '-': sum = firstArgument - secondArgument; break;
         case '*': sum = firstArgument * secondArgument; break;
         case '/': sum = firstArgument / secondArgument; break;
-        default: cout << "Invalid operator argument." << endl;
-        return 1;
+        default: cout << "Invalid operator argument.\n"; return;;
     }
 
-    cout << "Equation: " << firstArgument << " " << operatorArgument << " " << secondArgument << endl;
     cout << "Result: " << sum << endl;
+}
 
+int main() {
+    cout << "Calculator V1.0." << endl << endl;
+
+    calculation();
     return 0;
 }

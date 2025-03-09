@@ -1,0 +1,3 @@
+C:/Users/mindl/Documents/Dev Workspace/PPGR/Calculator/cmake-build-debug-event-trace/CMakeFiles/Calculator.dir
+C:/Users/mindl/Documents/Dev Workspace/PPGR/Calculator/cmake-build-debug-event-trace/CMakeFiles/edit_cache.dir
+C:/Users/mindl/Documents/Dev Workspace/PPGR/Calculator/cmake-build-debug-event-trace/CMakeFiles/rebuild_cache.dir
