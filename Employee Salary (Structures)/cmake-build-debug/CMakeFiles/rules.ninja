@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: Grades__Pointer_Arithmetic_
+# Project: Employee_Salary__Structures_
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Grades__Pointer_Arithmetic__unscanned_Debug
+rule CXX_COMPILER__Employee_Salary__Structures__unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule CXX_COMPILER__Grades__Pointer_Arithmetic__unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Grades__Pointer_Arithmetic__Debug
+rule CXX_EXECUTABLE_LINKER__Employee_Salary__Structures__Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\mindl\Documents\Dev Workspace\PPGR\Grades (Pointer Arithmetic)" -B"C:\Users\mindl\Documents\Dev Workspace\PPGR\Grades (Pointer Arithmetic)\cmake-build-debug"
+  command = "C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Joseph\Documents\Dev-Workspace\Employee Salary (Structures)" -B"C:\Users\Joseph\Documents\Dev-Workspace\Employee Salary (Structures)\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

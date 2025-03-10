@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Joseph/Documents/Dev-Workspace/Grades (Pointer Arithmetic)
+# Install script for directory: C:/Users/Joseph/Documents/Dev-Workspace/Employee Salary (Structures)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Grades__Pointer_Arithmetic_")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Employee_Salary__Structures_")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/Joseph/Documents/Dev-Workspace/Grades (Pointer Arithmetic)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Joseph/Documents/Dev-Workspace/Employee Salary (Structures)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
