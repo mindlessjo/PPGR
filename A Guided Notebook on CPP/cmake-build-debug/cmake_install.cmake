@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Joseph/Documents/Dev-Workspace/A Guided Notebook on CPP
+# Install script for directory: C:/Users/mindl/Documents/Dev Workspace/PPGR/A Guided Notebook on CPP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/Joseph/Documents/Dev-Workspace/A Guided Notebook on CPP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/mindl/Documents/Dev Workspace/PPGR/A Guided Notebook on CPP/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
