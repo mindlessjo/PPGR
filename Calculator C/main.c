@@ -64,7 +64,7 @@ int main(void) {
         return 1;  // Exit program in case of an unforeseen issue
     }
 
-    printf("The sum of the equation: %0.2f", result);
+    printf("The equation is: %0.2f %c %0.2f = %0.2f",firstArgument, operatorArgument, secondArgument, result);
 
     return 0;
 }
