@@ -1,10 +1,39 @@
 #include <stdio.h>
 
-int conversion(double currentTemp, char currentUnit, char targetUnit) {
+double conversion(double currentTemp, char currentUnit, char targetUnit) {
 
-    float result;
+    double result = 0;
 
-    return 1+1;
+    if (currentUnit == 'C') {
+        if (targetUnit == 'C') {
+            result = currentTemp;
+        } else if (targetUnit == 'F') {
+            result = (currentTemp * (9.0 / 5.0)) + 32;
+        } else if (targetUnit == 'K') {
+            result = currentTemp + 273.15;
+        }
+    } else if (currentUnit == 'F') {
+        if (targetUnit == 'C') {
+            result = (currentTemp - 32) * (5.0 / 9.0);
+        } else if (targetUnit == 'F') {
+            result = currentTemp;
+        } else if (targetUnit == 'K') {
+            result = (currentTemp - 32) * (5.0 / 9.0) + 273.15;
+        }
+    } else if (currentUnit == 'K') {
+        if (targetUnit == 'C') {
+            result = currentTemp - 273.15;
+        } else if (targetUnit == 'F') {
+            result = (currentTemp - 273.15) * (9.0 / 5.0) + 32;
+        } else if (targetUnit == 'K') {
+            result = currentTemp;
+        }
+    } else {
+        printf("Improper Conversion Units Detected");
+        return -1;
+    }
+
+    return result;
 }
 
 int main(void) {
@@ -59,9 +88,9 @@ int main(void) {
 
     printf("Temperature: %0.2lf \n"
     "Current Unit: %c \n"
-    "Target Unit: %c \n"
-    "Final Temperature: %0.2lf \n\n",
-    currentTemp, currentUnit, targetUnit, targetTemp
+    "Target Unit: %c \n\n"
+    "Converted Temperature: %0.2lf %c \n\n",
+    currentTemp, currentUnit, targetUnit, targetTemp, targetUnit
     );
 
 
