@@ -28,10 +28,17 @@ int main(void) {
         underlining(userWordLength);
 
         printf("\nEnter Guess: ");
-        scanf("%s", userInput);
+        scanf("%19s", userInput);
+
+        if (strcmp(userInput, userWord) == 0) {
+            printf("Congratulations. You guessed correctly!\n");
+            return 0;
+        }
 
         attempts++;
     } while (strcmp(userWord, userInput) != 0 && attempts <= 5);
+
+    printf("Incorrect. No more attempts.\n");
 
     return 0;
 }
