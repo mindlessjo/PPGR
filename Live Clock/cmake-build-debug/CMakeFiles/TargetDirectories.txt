@@ -1,3 +1,0 @@
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Live Clock/cmake-build-debug/CMakeFiles/Live_Clock.dir
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Live Clock/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Live Clock/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -26,7 +26,8 @@ int main(void) {
     do {
         char userInput[5];
         int playerHand;
-        int opponentHand;
+        playerHand = 22;
+        // int opponentHand;
         int bust = 21;
 
         printf("Hit or Stand?: ");
@@ -35,15 +36,20 @@ int main(void) {
         // Checks if comparison between user input and the specified string is true
         //strcmp true is 0
         if (strcmp(userInput, "hit") == 0) {
-            printf(deal(playerHand));
+            if (playerHand > bust) {
+
+                printf("You Bust!");
+                inputValue = 0;
+            } else if () {
             inputValue = 1;
+            };
         } else if (strcmp(userInput, "stand") == 0) {
             inputValue = 0;
         } else {
             printf("Please enter \"hit\" or \"stand\" \n");
             inputValue = 1;
         }
-    } while (inputValue);
+    } while (inputValue); // loop condition
 
 
     return 0;

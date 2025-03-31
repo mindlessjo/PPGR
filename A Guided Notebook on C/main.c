@@ -1,25 +1,26 @@
 #include <float.h>
 #include <stdio.h>
 #include <limits.h>
+#include <stdbool.h>
 
 int main(void) {
 
     //Escape Sequences
     // \n = newline, \t = tab, \" \" = specific double quotations etc.
-    printf("1\t2\t3\n4\t5\t6\n7\t8\t9\n");
+    printf("1\t2\t3\n4\t5\t6\n7\t8\t9\n\n");
 
     // Void pointer
     if (sizeof(void*) == 4) {
-        printf("The system architecture is 32 bit");
+        printf("The system architecture is 32 bit\n\n");
     } else if (sizeof(void*) == 8){
-        printf("The system architecture is 64 bit");
+        printf("The system architecture is 64 bit\n\n");
     } else {
-        printf("System architecture unknown");
+        printf("System architecture unknown\n\n");
     }
 
     // VARIABLES
     printf(
-    "\nInitializing and Declaring Variables\n"
+    "Initializing and Declaring Variables\n"
     "A variable is allocated space in memory to store a value, and the name is like a shortcut to access the value\n"
     "The first step is to declare the type of the variable:\n"
     "int x;          is the declaration of x\n"
@@ -72,10 +73,20 @@ int main(void) {
         //printf("Equal: %d, or True", 1 == 1);
 
 
+    // USER INPUT
+    printf(
+        "scanf() is a function used to read inputs, and only reads the characters that match the format specifier"
+
+        );
+
+    // FORMAT SPECIFIERS
+    printf(
+        "%%p, the fs for accessing memory pointer"
+        ""
+        );
 
 
-
-
-
+    fflush(stdin);
+    getchar();
     return 0;
 }

@@ -13,7 +13,7 @@ int main(void) {
         return 1; // Exit with an error code
     }
 
-    printf("The current date is %02d/%02d/%04d.", day, month, year);
+    printf("The current date is %02d/%02d/%04d.", month, day, year);
 
     return 0;
 }

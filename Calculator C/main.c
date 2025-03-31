@@ -66,5 +66,7 @@ int main(void) {
 
     printf("The equation is: %0.2f %c %0.2f = %0.2f",firstArgument, operatorArgument, secondArgument, result);
 
+    fflush(stdin);
+    getchar(); // 2 getchar() because \n leaves a newline in the input buffer
     return 0;
 }
