@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// #define
+
 int main(void) {
     printf("Hangman V1.0!\n");
 
