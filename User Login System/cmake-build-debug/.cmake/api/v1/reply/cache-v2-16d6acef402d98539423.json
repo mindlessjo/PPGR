@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Joseph/Documents/Dev-Workspace/Word Guesser C/cmake-build-debug"
+			"value" : "c:/Users/mindl/Documents/Dev Workspace/PPGR/User Login System/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Joseph/Documents/Dev-Workspace/Word Guesser C/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/mindl/Documents/Dev Workspace/PPGR/User Login System/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Joseph/Documents/Dev-Workspace/Word Guesser C"
+			"value" : "C:/Users/mindl/Documents/Dev Workspace/PPGR/User Login System"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Word_Guesser_C"
+			"value" : "C:/Program Files (x86)/User_Login_System"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -731,7 +731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Word_Guesser_C"
+			"value" : "User_Login_System"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1126,7 +1126,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Word_Guesser_C_BINARY_DIR",
+			"name" : "User_Login_System_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1135,10 +1135,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Joseph/Documents/Dev-Workspace/Word Guesser C/cmake-build-debug"
+			"value" : "C:/Users/mindl/Documents/Dev Workspace/PPGR/User Login System/cmake-build-debug"
 		},
 		{
-			"name" : "Word_Guesser_C_IS_TOP_LEVEL",
+			"name" : "User_Login_System_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1150,7 +1150,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Word_Guesser_C_SOURCE_DIR",
+			"name" : "User_Login_System_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Joseph/Documents/Dev-Workspace/Word Guesser C"
+			"value" : "C:/Users/mindl/Documents/Dev Workspace/PPGR/User Login System"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

@@ -1,0 +1,3 @@
+C:/Users/mindl/Documents/Dev Workspace/PPGR/Countdown Timer C/cmake-build-debug/CMakeFiles/Countdown_Timer_C.dir
+C:/Users/mindl/Documents/Dev Workspace/PPGR/Countdown Timer C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mindl/Documents/Dev Workspace/PPGR/Countdown Timer C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

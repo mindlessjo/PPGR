@@ -1,7 +1,7 @@
 #include <float.h>
 #include <stdio.h>
 #include <limits.h>
-// #include <stdbool.h>
+#include <stdbool.h>
 
 int main(void) {
 
@@ -9,7 +9,7 @@ int main(void) {
     // \n = newline, \t = tab, \" \" = specific double quotations etc.
     printf("1\t2\t3\n4\t5\t6\n7\t8\t9\n\n");
 
-    // Void pointer
+    // Void pointer // Used to find system Architecture
     if (sizeof(void*) == 4) {
         printf("The system architecture is 32 bit\n\n");
     } else if (sizeof(void*) == 8){
@@ -29,7 +29,7 @@ int main(void) {
     "Use %% as a format specifier to specify he data type you want to insert\n\n"
 
 
-    "Data Types:\n"
+    "Data Types:            Full Type:                      FS:  \n"
     "(short)                short integer                  %%hd  \n"
     "(int)                  integer                        %%d   \n"
     "(float)                floating point number          %%f   \n"
@@ -39,6 +39,9 @@ int main(void) {
     "(bool)                 true or false (0 or 1)         %%d \n\n"
     // void represents no data but its pointer can point to system architecture (32/64 bit)
     );
+
+    // CONSTANTS
+    printf("(const): a constant variable is a variable the cannot be changed after it's declared");
 
 
     printf("Data Type Sizes\n");
@@ -62,28 +65,76 @@ int main(void) {
 
     // RELATIONAL AND LOGICAL OPERATORS
     printf(
-        "Relational and Logical Operators\n"
+        "Arithmetic Operators (basic math)\n"
+        "Addition: +\t"
+        "Subtraction: -\t"
+        "Multiplication: *\n"
+        "Division: /\t"
+        "Modulus: %% \n\n"
+
         "Relational operators are dependant on whether the statements are true or false\n"
         "Equal: ==\t"
         "Greater: >\t"
         "Greater/Equal: >=\n"
         "Not Equal: !=\t"
         "Less: <\t\t"
-        "Less/Equal: <=\n");
+        "Less/Equal: <=\n\n"
         //printf("Equal: %d, or True", 1 == 1);
+
+        "Logical Operations comparing conditions\n"
+        "&&: Used as the AND condition, both statements are true\n"
+        "||: Used as the OR condition, one or both statements are true\n\n"
+    );
+
+    // CONDITIONAL STATEMENTS
+    // IF-ELSE
+
+    //  if (x (relational operation) y) {
+    //       printf("will print if true);
+    // } else if (condition with relational operation) {
+    //       printf("will print if true");
+    // } else {
+    //       printf("will print if none are true");
+    //  };
+
+    // SWITCH-CASE
+    // a control structure of different code blocks based on the value of an expressino
+
+    // switch (variable) {
+    //     case 1:
+    //      printf("something happened");
+    //      break;
+    //     case 2:
+    //      printf("something happened");
+    //      break;
+    //     default:
+    //      printf("Invalid choice");
+    //  }
+    //
 
 
     // USER INPUT
     printf(
-        "scanf() is a function used to read inputs, and only reads the characters that match the format specifier"
+        "scanf() is a function used to read inputs, and only reads the characters that match the format specifier\n\n"
 
         );
 
-    // FORMAT SPECIFIERS
+
+    // LOOPS
     printf(
-        "%%p, the fs for accessing memory pointer"
-        ""
-        );
+            // FOR LOOP
+           "for loop: is best used when you know how many times something should repeat"
+
+
+           // WHILE LOOP
+           "while loop: is best used when you dont know how many times something should repeat in advance"
+
+
+           // DO-WHILE LOOP
+           "do-while loop: similar to while, but always runs at least once"
+
+
+           );
 
 
     fflush(stdin);
