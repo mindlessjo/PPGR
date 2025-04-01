@@ -3,6 +3,6 @@
 int main(void) {
     printf("User Login Password\n");
 
-    printf("Enter Password")
+    printf("Enter Password");
     return 0;
 }
