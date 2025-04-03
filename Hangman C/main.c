@@ -39,5 +39,6 @@ int main(void) {
     } while (strcmp(blankKey, inputWord) != 0 || strike == 7); // compares the character arrays and the strike limit
 
 
+    printf("THIS IS NOT A DRILL");
     return 0;
 }
