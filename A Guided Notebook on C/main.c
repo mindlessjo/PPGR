@@ -132,7 +132,7 @@ int main(void) {
 
            // DO-WHILE LOOP
            "do-while loop: similar to while, but always runs at least once\n"
-           "This is in my github folder"
+           "This is a sample push, respond with message and commit if working properly"
            );
 
 
