@@ -123,17 +123,16 @@ int main(void) {
     // LOOPS
     printf(
             // FOR LOOP
-           "for loop: is best used when you know how many times something should repeat"
+           "for loop: is best used when you know how many times something should repeat\n"
 
 
            // WHILE LOOP
-           "while loop: is best used when you dont know how many times something should repeat in advance"
+           "while loop: is best used when you dont know how many times something should repeat in advance\n"
 
 
            // DO-WHILE LOOP
-           "do-while loop: similar to while, but always runs at least once"
-
-
+           "do-while loop: similar to while, but always runs at least once\n"
+           "This is in my github folder"
            );
 
 
