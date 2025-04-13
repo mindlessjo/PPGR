@@ -9,7 +9,7 @@ void underlining(size_t userWordLength) {
 }
 
 int main(void) {
-    printf("Word Guesser V1.0\n");
+    printf("Word Guesser V1.0\n\n");
     printf("Enter the chosen word to guess: ");
 
     // Take user input and store it in a variable
