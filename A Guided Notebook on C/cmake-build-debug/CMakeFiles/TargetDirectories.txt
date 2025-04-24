@@ -1,3 +1,0 @@
-C:/Users/Joseph/Documents/GitHub/PPGR/A Guided Notebook on C/cmake-build-debug/CMakeFiles/A_Guided_Notebook_on_C.dir
-C:/Users/Joseph/Documents/GitHub/PPGR/A Guided Notebook on C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Joseph/Documents/GitHub/PPGR/A Guided Notebook on C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

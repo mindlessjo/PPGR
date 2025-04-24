@@ -1,3 +1,0 @@
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Word Guesser C/cmake-build-debug/CMakeFiles/Word_Guesser_C.dir
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Word Guesser C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Word Guesser C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

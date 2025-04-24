@@ -1,3 +1,0 @@
-C:/Users/Joseph/Documents/Dev-Workspace/Number Swapper C/cmake-build-debug/CMakeFiles/Number_Swapper_C.dir
-C:/Users/Joseph/Documents/Dev-Workspace/Number Swapper C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Joseph/Documents/Dev-Workspace/Number Swapper C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

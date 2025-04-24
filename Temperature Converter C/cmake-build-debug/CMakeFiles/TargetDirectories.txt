@@ -1,3 +1,0 @@
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Temperature Converter C/cmake-build-debug/CMakeFiles/Temperature_Converter_C.dir
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Temperature Converter C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mindl/Documents/Dev Workspace/PPGR/Temperature Converter C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
